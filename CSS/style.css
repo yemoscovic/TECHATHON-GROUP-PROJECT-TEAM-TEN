@@ -1,8 +1,266 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    color: #353535;
+}
+/* ==============================================A special and floating background====================================*/
+.special-bg{
+    position:relative;
+    background-color: rgb(249,249,249);
+    height:820px;
+    max-width:27.5%;
+    z-index:0;
+    top:-17%;
+    left:67%;
+}
+/* =================================================HEADER=============================================================== */
+.header-flex-house{
+    display:flex;
+    justify-content: space-between;
+    position:absolute;
+    top:10%;
+    padding:100px 6rem;
+    padding-top:100px;
+    width:100%;
+    height:800px;
+    margin:0px;
+}
+/* ==========================================The Left side of the flex========================== */
+.header-first-flex{
+    margin-top:91px;
+}
+.header-texts h1{
+    font-size:4em;
+    line-height:82.5px;
+    font-weight:600;
+}
+.header-texts p{
+    font-size:17px;
+    line-height:27.2px;
+    color:#515050;
+    max-width:510px;
+    margin-top:0.7rem;
+}
+.header-first-flex .header-Create-account{
+    background-color: rgb(53, 53, 53);
+    border-radius:10px;
+    width:200px;
+    color:#fff;
+    font-size:1rem;
+    font-weight:600;
+    padding:17px;
+    border:none;
+    margin-top:1.8rem
+}
+.header-first-flex .header-Create-account a{
+    text-decoration:none;
+    font-size:1rem;
+    font-weight:600;
+    color:white;
+}
+.header-first-flex .header-Create-account:hover{
+    background-color: rgb(16, 16, 251);
+    transition:all 0.8s ease-in-out;
+}
 
-body {
-    background-color: #002d62;
-  }
-  
+/* ==========================================Download buttons=========================================== */
+.header-apps-download{
+    display:flex;
+    margin-top:35px;
+}
+.header-apps-download button{
+    width:150px;
+    border-radius:12px;
+    padding:10px;
+    border:none;
+    border:1px solid rgb(210, 208, 208);
+    background-color: #fff;
+    transform:translateY(10px);
+}
+.header-apps-download button:hover{
+    transform:translateY(0px);
+    transition:transform 0.5s ease-in-out;
+}
+.header-apps-download a{
+    display:flex;
+    text-decoration: none;
+    color:rgb(17, 16, 16);
+    font-size:14px;
+    width:100%;
+}
+.header-apps-download a p{
+    margin-top:5px;
+    padding-left:5px;
+}
+.ios{
+    margin-right:17px;
+}
+/* =========================================The Right side of the flex========================================= */
+.header-second-flex{
+    text-align: center;
+    width:50%;
+    z-index:0;
+}
+.the-rectangle{
+    height:97%;
+    max-width:60%;
+    margin-left:61px;
+}
+.the-lady{
+    width:27%;
+    height:64%;
+    position:absolute;
+    top:17%;
+    right:16.8%;
+}
+.the-rent{
+    position:absolute;
+    width:15.5%;
+    height:14%;
+    bottom:51.5%;
+    right:35.3%;
+}
+.the-investify{
+    position:absolute;
+    width:15.5%;
+    height:14%;
+    bottom:20.3%;
+    right:9%;
+}
+.cross-headerIcon{
+    position:absolute;
+    top:12.5%;
+    right:40.9%;
+}
+.circle-headerIcon{
+    position:absolute;
+    bottom:61%;
+    right:15.4%;
+}
+.dot-headerIcon{
+    position:absolute;
+    bottom:29%;
+    right:42.5%;
+}
+
+
+/* ======================================================1440PX============================================================ */
+@media screen and (min-width:1400px) and (max-width:1440px) {
+    .header-flex-house{top:5%;}
+}
+/* =======================================================375PX============================================================ */
+@media screen and (max-width:375px) {
+    .special-bg{
+        display:none;
+    }
+    /* =================================================HEADER=============================================================== */
+.header-flex-house{
+    display:flex;
+    flex-direction:column;
+    position:none;
+    top:0%;
+    padding:1px 2rem;
+    padding-top:30px;
+    width:100%;
+    height:800px;
+    margin:0px;
+}
+/* ==========================================The Left side of the flex========================== */
+.header-first-flex{
+    margin-top:10px;
+    text-align: center;
+}
+.header-texts h1{
+    font-size:2.8em;
+    line-height:60px;
+    text-align:center;
+}
+.header-texts h1 br{
+    display: none;
+}
+.the-texts p{
+    font-size:1em;
+    text-align: center;
+    line-height:27.2px;
+}
+.header-first-flex .header-Create-account{
+    font-size:1rem;
+    font-weight:600;
+    padding:17px;
+    border:none;
+    margin-top:1.8rem
+}
+/* ==========================================Download buttons=========================================== */
+.header-apps-download{
+    display:flex;
+    margin-top:35px;
+    flex-direction:column;
+    align-items: center;
+}
+.ios{
+    margin-right:0px;
+    margin-bottom:20px;
+}
+
+/* ==============================================The Right side of the flex====================================  */
+
+.the-lady{
+    width:27%;
+    height:64%;
+    position:none;
+    top:100%;
+    right:16.8%;
+}
+/* =========================================The Right side of the flex========================================= */
+.header-second-flex{
+    text-align: center;
+    width:100%;
+    margin-top:90px;
+}
+.the-rectangle{
+    height:120%;
+    max-width:90%;
+    margin-left:0px;
+    margin-left:40px;
+}
+.the-lady{
+    width:75%;
+    height:58%;
+    top:83%;
+    right:16%;
+}
+.the-rent{
+    position:absolute;
+    width:60%;
+    height:14%;
+    bottom:-12%;
+    right:42%;
+}
+.the-investify{
+    position:absolute;
+    width:55%;
+    height:14%;
+    bottom:-40.3%;
+    right:12%;
+}
+.cross-headerIcon{
+    position:absolute;
+    top:78.5%;
+    right:77.5%;
+}
+.circle-headerIcon{
+    bottom:-2%;
+    right:11%;
+}
+.dot-headerIcon{
+    bottom:-35%;
+    right:85.5%;
+}
+}
   /* Form Case */
   .Sign-up-container {
     background-color: white;
