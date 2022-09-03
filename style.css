@@ -1,0 +1,136 @@
+.container .section_3{
+    width: 100%;
+    display: flex;
+    justify-content: Center;
+    align-items: flex-start;
+}
+
+.container .section_3 .box:nth-child(1){
+    width: 25%;
+    padding: 10px;
+    padding-top: 70px;
+}
+
+.container .section_3 .box:nth-child(2){
+    width: 58%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.container .section_3 .box h1{
+    font-size: 40px;
+    margin: 3px;
+}
+
+.container .section_3 .box p{
+    font-size: 18px;
+    margin: 20px 3px;
+    padding: 10px 0px;
+    line-height: 30px;
+}
+
+.container .section_3 .box a{
+    width: 45%;
+    display: block;
+    background-color: #0c1825;
+    color: #fff;
+    height: 50px;
+    padding: 5px;
+    margin-top: 25px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.container .section_3 .box .child{
+    width: 47%;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #f1e7e7;
+}
+
+.container .section_3 .box .child .icon{
+    width: 50px
+}
+
+.container .section_3 .box .child .icon img{
+    width: 100%;
+}
+
+.container .section_3{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 5px;
+}
+
+.container .section_3 .box .child p{
+    padding: 5px 5px;
+    display: flex;
+}
+
+.container .section_3 .box .child p span{
+    margin: 5px;
+}
+
+.container .section_4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 70px 0px;
+}
+
+.container .section_4 .box{
+    width: 50%;
+    padding: 10px;
+}
+
+.container .section_4 .box:nth-child(1){
+    width: 40%;
+}
+
+.container .section_4 .box:nth-child(2){
+    padding: 60px 25px;
+}
+
+.container .section_4 .box img{
+    width: 50%;
+    padding-left: 40%;
+}
+
+.container .section_4 .box p .label{
+    width: 35%;
+    background-color: #f7f1ff;
+    padding: 9px;
+    text-align: center;
+    border-radius: 20px;
+    color: #9b52de;
+    font-weight: bolder;
+}
+
+.container .section_4 .box h1{
+    font-size: 55px;
+    padding: 10px;
+    margin: 3px;
+}
+
+.container .section_4 .box p .text{
+    font-size: 16px;
+    margin: 20px 3px;
+    padding: 10px;
+    line-height: 30px;
+    color: #0c1825;
+}
+
+.container .section_4 .box a{
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 10px;
+    color: #9b52de;
+}
