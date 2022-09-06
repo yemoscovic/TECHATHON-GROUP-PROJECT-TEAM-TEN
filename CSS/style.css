@@ -1,3 +1,4 @@
+
 /* general styles */
 
 * {
@@ -347,3 +348,87 @@ h3 {
         margin-top: 1.9em;
     }
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&family=Space+Grotesk:wght@500&family=Zilla+Slab&display=swap');
+/* *{
+    margin: 0%;
+    padding: 0%;
+} */
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+/* font family was chosen according as a result close resemblance to the font used */
+body{
+    font-family: 'DM Sans', 'Zilla Slab', sans-serif;
+    color: #353535;
+}
+/* the container-bag contains all the other divs; named so as to prevent conflict with other codes */
+.container-bag{
+    display: flex;
+    justify-content: center;   
+}
+
+.right{
+    margin: 5em;
+    font-size: 1.5em;
+}
+
+.right h2{
+    margin-bottom: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button{
+    font-size: 0.6em;
+    border-radius: 0.5em;
+    padding: 0.9em 2em;
+    background-color: black;
+    margin-top: 2em;
+    color: white;
+}
+
+.button a{
+    text-decoration: none;
+    color: white; 
+    padding: 2em ;
+}
+
+img.image{
+    width: 400px; 
+    height: 600px;
+    margin: 2em;
+}
+
+.icons{
+    display: flex;
+    font-size: 1em;
+}
+
+.icons .me .h3{
+    background-color: #353535;
+    padding: 0.5em;
+}
+
+.icons .me{
+    border-style: solid;
+    border-width: 0.1em;
+    border-color: antiquewhite;
+}
+.icons div{
+    background-color: whitesmoke;
+    border-radius: 0.5em;
+    margin: 0.8em;
+    
+}
+
+.icons div.me{
+    margin: 1.5em;
+}
+
+.icons .me a{
+    text-decoration: none;
+}
+
