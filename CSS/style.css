@@ -1,364 +1,378 @@
+
 *{
-    padding: 0;
-    margin:0;
-    box-sizing:border-box;
+    margin: 0;
+    padding:0;
+    box-sizing: 0;
 }
 body{
-    font-family: 'DM Sans', sans-serif;
-    color: #353535;
+    font-family: 'dm sans' sans-serif;
 }
-/* ==============================================A special and floating background====================================*/
-.special-bg{
-    position:relative;
-    background-color: rgb(249,249,249);
-    height:820px;
-    max-width:27.5%;
-    z-index:0;
-    top:-17%;
-    left:67%;
-}
-/* =================================================HEADER=============================================================== */
-.header-flex-house{
-    display:flex;
-    justify-content: space-between;
-    position:absolute;
-    top:10%;
-    padding:100px 6rem;
-    padding-top:100px;
+.contaiiiner{
+    display: flex;
+    flex-direction: row;
+    padding-left:20px;
+    column-gap: 100px;
+    position: fixed;
+    background-color:white;
     width:100%;
-    height:800px;
-    margin:0px;
+    height: 12%;
+        
 }
-/* ==========================================The Left side of the flex========================== */
-.header-first-flex{
-    margin-top:91px;
+.contaiiiner a{
+position: absolute;
+top:40px;
+font-size: 20px;
+text-decoration: none;
+color:black
 }
-.header-texts h1{
-    font-size:4em;
-    line-height:82.5px;
-    font-weight:600;
-}
-.header-texts p{
-    font-size:17px;
-    line-height:27.2px;
-    color:#515050;
-    max-width:510px;
-    margin-top:0.7rem;
-}
-.header-first-flex .header-Create-account{
-    background-color: rgb(53, 53, 53);
-    border-radius:10px;
-    width:200px;
-    color:#fff;
-    font-size:1rem;
-    font-weight:600;
-    padding:17px;
-    border:none;
-    margin-top:1.8rem
-}
-.header-first-flex .header-Create-account a{
-    text-decoration:none;
-    font-size:1rem;
-    font-weight:600;
-    color:white;
-}
-.header-first-flex .header-Create-account:hover{
-    background-color: rgb(16, 16, 251);
-    transition:all 0.8s ease-in-out;
-}
-
-/* ==========================================Download buttons=========================================== */
-.header-apps-download{
-    display:flex;
-    margin-top:35px;
-}
-.header-apps-download button{
-    width:150px;
-    border-radius:12px;
-    padding:10px;
-    border:none;
-    border:1px solid rgb(210, 208, 208);
-    background-color: #fff;
-    transform:translateY(10px);
-}
-.header-apps-download button:hover{
-    transform:translateY(0px);
-    transition:transform 0.5s ease-in-out;
-}
-.header-apps-download a{
-    display:flex;
+.contaiiiner a:hover{
+    position: absolute;
+    top:40px;
+    font-size: 20px;
     text-decoration: none;
-    color:rgb(17, 16, 16);
-    font-size:14px;
-    width:100%;
-}
-.header-apps-download a p{
-    margin-top:5px;
-    padding-left:5px;
-}
-.ios{
-    margin-right:17px;
-}
-/* =========================================The Right side of the flex========================================= */
-.header-second-flex{
-    text-align: center;
-    width:50%;
-    z-index:0;
-}
-.the-rectangle{
-    height:97%;
-    max-width:60%;
-    margin-left:61px;
-}
-.the-lady{
-    width:27%;
-    height:64%;
-    position:absolute;
-    top:17%;
-    right:16.8%;
-}
-.the-rent{
-    position:absolute;
-    width:15.5%;
-    height:14%;
-    bottom:51.5%;
-    right:35.3%;
-}
-.the-investify{
-    position:absolute;
-    width:15.5%;
-    height:14%;
-    bottom:20.3%;
-    right:9%;
-}
-.cross-headerIcon{
-    position:absolute;
-    top:12.5%;
-    right:40.9%;
-}
-.circle-headerIcon{
-    position:absolute;
-    bottom:61%;
-    right:15.4%;
-}
-.dot-headerIcon{
-    position:absolute;
-    bottom:29%;
-    right:42.5%;
-}
-
-
-/* ======================================================1440PX============================================================ */
-@media screen and (min-width:1400px) and (max-width:1440px) {
-    .header-flex-house{top:5%;}
-}
-/* =======================================================375PX============================================================ */
-@media screen and (max-width:375px) {
-    .special-bg{
-        display:none;
+    color: darkblue;
     }
-    /* =================================================HEADER=============================================================== */
-.header-flex-house{
-    display:flex;
-    flex-direction:column;
-    position:none;
-    top:0%;
-    padding:1px 2rem;
-    padding-top:30px;
-    width:100%;
-    height:800px;
-    margin:0px;
-}
-/* ==========================================The Left side of the flex========================== */
-.header-first-flex{
-    margin-top:10px;
-    text-align: center;
-}
-.header-texts h1{
-    font-size:2.8em;
-    line-height:60px;
-    text-align:center;
-}
-.header-texts h1 br{
-    display: none;
-}
-.the-texts p{
-    font-size:1em;
-    text-align: center;
-    line-height:27.2px;
-}
-.header-first-flex .header-Create-account{
-    font-size:1rem;
-    font-weight:600;
-    padding:17px;
-    border:none;
-    margin-top:1.8rem
-}
-/* ==========================================Download buttons=========================================== */
-.header-apps-download{
-    display:flex;
-    margin-top:35px;
-    flex-direction:column;
-    align-items: center;
-}
-.ios{
-    margin-right:0px;
-    margin-bottom:20px;
-}
-
-/* ==============================================The Right side of the flex====================================  */
-
-.the-lady{
-    width:27%;
-    height:64%;
-    position:none;
-    top:100%;
-    right:16.8%;
-}
-/* =========================================The Right side of the flex========================================= */
-.header-second-flex{
-    text-align: center;
-    width:100%;
-    margin-top:90px;
-}
-.the-rectangle{
-    height:120%;
-    max-width:90%;
-    margin-left:0px;
-    margin-left:40px;
-}
-.the-lady{
-    width:75%;
-    height:58%;
-    top:83%;
-    right:16%;
-}
-.the-rent{
-    position:absolute;
-    width:60%;
-    height:14%;
-    bottom:-12%;
-    right:42%;
-}
-.the-investify{
-    position:absolute;
-    width:55%;
-    height:14%;
-    bottom:-40.3%;
-    right:12%;
-}
-.cross-headerIcon{
-    position:absolute;
-    top:78.5%;
-    right:77.5%;
-}
-.circle-headerIcon{
-    bottom:-2%;
-    right:11%;
-}
-.dot-headerIcon{
-    bottom:-35%;
-    right:85.5%;
-}
-}
-  /* Form Case */
-  .Sign-up-container {
-    background-color: white;
-    color: #00308f;
-    border-radius: 20px;
-    width: 400px;
-    font-family: sans-serif;
-    font-size: 400;
-    margin-left: 450px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-  
-  /* This as to do with the welcome information */
-  .message {
-    color: #6a6c6d;
-    padding-left: 10px;
-    padding-right: 100px;
-    margin-left: 65px;
-    padding: 0%;
-    font-size: 13px;
-    font-stretch: expanded;
-    text-align: justify;
-  }
-  
-/* Case for the information */
-  .form1 {
-    color: black;
-    padding-left: 10px;
-    align-content: center;
-  }
-  
-  /* Bottom section */
-  .account1 {
-    color: white;
-    margin-left: 40%;
-    margin-top: 0%;
-    padding-top: 0%;
-  }
-  .account {
-    color: white;
-    padding-top: 100px;
-  }
-  
-  /* Logo section */
-  .logo1 {
-    align-content: center;
-    width: 220px;
-    height: 40px;
-    margin-left: 545px;
-    margin-top: 2%;
-    background-color: #00308f;
-  }
-  
-  /* Header section */
-  .create1 {
-    margin-bottom: 10px;
-    border-radius: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 50px;
-    color: blue;
-  }
-  
-  /* Text section */
-  .input {
-    background-color: #e6edf5;
-    border: 0ch;
-    border-radius: 5px;
+.imgSa{
     height: 50px;
-    margin-left: 20px;
-    padding-left: 15px;
-    width: 75%;
-  }
+    width:250px;
+    
+    padding-top: 20px;
+    padding-left:40px;
   
-  /* Text section 2 */
-  .input2 {
-    border: 0ch;
-    background-color: #e6edf5;
-    margin-left: 20px;
-    height: 45px;
-    border-radius: 6px;
-    width: 86%;
-  }
-  
-  /* Create button */
-  .create {
-    border: 0ch;
-    margin-bottom: 40px;
-    border-radius: 6px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 20px;
-    height: 45px;
-    width: 86%;
-  }
+}
+.sign{
+    height:30px;
+    width:90px;
+    border-radius: 10px;
+    color:black;
+    border:1px solid black;
+     padding: 10px;
+ 
+}
+
+.sign:hover{
+    height:30px;
+    width:90px;
+    border-radius: 10px;
+    color:darkblue;
+    border:1px solid darkblue;
+     padding: 10px;
+ 
+}
+
+.sign a{
+
+
+
+    padding-left:10px;
+    font-size:20px ;
+    color:black ;
+    position: absolute;
+    top: 15px;
+}
+.sign a:hover{
+
+    padding-left:10px;
+    font-size:20px ;
+    color:darkblue ;
+    position: absolute;
+    top: 15px;
+}
+
+.account{
+    height: 35px;
+    width:200px;
+    border-radius:10px ;
+    background-color:black;
+    padding-top: 12px;
+ 
+}
+
+.account:hover{
+    height: 35px;
+    width:200px;
+    border-radius:10px ;
+    background-color:darkblue;
+    padding-top: 15px;
+ 
+}
+
+
+.account a{
+
+    
+
+    padding-left:20px;
+    font-size:20px ;
+    color:white;
+    position: absolute;
+    top: 15px;
+}
+.account a:hover{
+
+    padding-left:20px;
+    font-size:20px ;
+    color:white ;
+    position: absolute;
+    top: 15px;
+}
+
+
+
+.loog{
+    display: flex;
+    column-gap: 15px;
+ position: absolute;
+ top:20px;
+ left:1000px;
+}
+.loog a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding:0;
+        box-sizing: 0;
+    }
+    .contaiiiner{
+        display: flex;
+        flex-direction: row;
+        padding-left:2px;
+       row-gap: 1px;
+        position: fixed;
+        background-color:white;
+        width:100%;
+        height: 12%;
+            
+    }
+    .contaiiiner a{
+    position: absolute;
+    top:40px;
+    font-size: 12px;
+    text-decoration: none;
+    color:black
+    }
+    .contaiiiner a:hover{
+        position: absolute;
+        top:40px;
+        font-size: 20px;
+        text-decoration: none;
+        color: darkblue;
+        }
+    .imgSa img{
+        height: 20px;
+        width:100px;
+        
+        padding-top: 20px;
+        padding-left:5px;
+      
+    }
+    .sign{
+        height:15px;
+        width:45px;
+        border-radius: 10px;
+        color:black;
+        border:1px solid black;
+         padding: 5px;
+     
+    }
+    
+    .sign:hover{
+        height:15px;
+        width:45px;
+        border-radius: 10px;
+        color:darkblue;
+        border:1px solid darkblue;
+         padding: 5px;
+     
+    }
+    
+    .sign a{
+    
+    
+    
+        padding-left:5px;
+        font-size:10px ;
+        color:black ;
+        position: absolute;
+        top: 7.5px;
+    }
+    .sign a:hover{
+    
+        padding-left:5px;
+        font-size:10px ;
+        color:darkblue ;
+        position: absolute;
+        top: 7.5px;
+    }
+    
+    .account{
+        height: 17.5px;
+        width:100px;
+        border-radius:5px ;
+        background-color:black;
+        padding-top: 6px;
+     
+    }
+    
+    .account:hover{
+        height: 17.5px;
+        width:100px;
+        border-radius:10px ;
+        background-color:darkblue;
+        padding-top: 7.5px;
+     
+    }
+    
+    
+    .account a{
+    
+        
+    
+        padding-left:10px;
+        font-size:10px ;
+        color:white;
+        position: absolute;
+        top: 7.5px;
+    }
+    .account a:hover{
+    
+        padding-left:10px;
+        font-size:10px ;
+        color:white ;
+        position: absolute;
+        top: 7.5px;
+    }
+    
+    
+    
+    .loog{
+        display: flex;
+        column-gap: 5px;
+     position: absolute;
+     top:80px;
+     left:400px;
+    }
+    .loog a{
+        text-decoration: none;
+    }
+}
+
+
+/* meet the saver of the css */
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: 0;
+}
+.bboody{
+    background-color: darkblue;
+    color:white;
+    font-family:  'dm sans' sans-serif;;
+    height: 100vh;
+}
+h1{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1;
+}
+p{
+    line-height: 2;
+    font-size: 15px;
+}
+
+.material-symbols-outlined{
+    color:darkblue;
+    border:1px solid white;
+     background-color: white;
+    border-radius: 70%;
+    padding: 5px;
+    position: absolute;
+    left:50px
+}
+span .material-symbols-outlined{
+    padding-left: 5px;
+}
+.wwhole{
+    display: flex;
+    flex-direction: row;
+column-gap:300px;
+}
+.meet{
+padding-left: 70px;
+  margin-top: 200px;
+}
+.saver img{
+    height:500px;
+    width:600px;
+    margin-top: 80px;
    
-  /* Labels for the form */
-  .details {
-    margin-left: 20px;
-  }
+}
+.nname{
+  padding-left: 90px;
+  padding-bottom: 30px;
+}
+@media screen and (max-width: 600px) {
+
+    *{
+        margin: 0;
+        padding:0;
+        box-sizing: 0;
+    }
+
+    .bboody{
+        background-color: darkblue;
+        color:white;
+        font-family: dm,sans-serif;
+        height: 100vh;
+    }
+    h1{
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 1;
+    }
+    p{
+        line-height: 2;
+        font-size: 15px;
+    }
+    
+    .material-symbols-outlined{
+        color:darkblue;
+        border:1px solid white;
+         background-color: white;
+        border-radius: 70%;
+        padding: 5px;
+        position: absolute;
+        left:50px
+    }
+    span .material-symbols-outlined{
+        padding-left: 5px;
+    }
+    .wwhole{
+        display: flex;
+        flex-direction:column;
+    justify-items: center;
+  
+
+    }
+    .meet{
+
+      justify-content: center;
+      padding-bottom: 30px;
+    }
+    .saver img{
+        height:500px;
+        width:400px;
+        justify-items: center;
+      padding-left:60px ;
+ }
+    .nname{
+      padding-left: 90px;
+      padding-bottom: 30px;
+    }
+
+}
