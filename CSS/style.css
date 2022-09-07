@@ -1,3 +1,373 @@
+}
+.contaiiiner{
+    display: flex;
+    flex-direction: row;
+    padding-left:20px;
+    column-gap: 100px;
+    position: fixed;
+    background-color:white;
+    width:100%;
+    height: 12%;
+        
+}
+.contaiiiner a{
+position: absolute;
+top:40px;
+font-size: 20px;
+text-decoration: none;
+color:black
+}
+.contaiiiner a:hover{
+    position: absolute;
+    top:40px;
+    font-size: 20px;
+    text-decoration: none;
+    color: darkblue;
+    }
+.imgSa{
+    height: 50px;
+    width:250px;
+    
+    padding-top: 20px;
+    padding-left:40px;
+  
+}
+.sign{
+    height:30px;
+    width:90px;
+    border-radius: 10px;
+    color:black;
+    border:1px solid black;
+     padding: 10px;
+ 
+}
+
+.sign:hover{
+    height:30px;
+    width:90px;
+    border-radius: 10px;
+    color:darkblue;
+    border:1px solid darkblue;
+     padding: 10px;
+ 
+}
+
+.sign a{
+
+
+
+    padding-left:10px;
+    font-size:20px ;
+    color:black ;
+    position: absolute;
+    top: 15px;
+}
+.sign a:hover{
+
+    padding-left:10px;
+    font-size:20px ;
+    color:darkblue ;
+    position: absolute;
+    top: 15px;
+}
+
+.account{
+    height: 35px;
+    width:200px;
+    border-radius:10px ;
+    background-color:black;
+    padding-top: 12px;
+ 
+}
+
+.account:hover{
+    height: 35px;
+    width:200px;
+    border-radius:10px ;
+    background-color:darkblue;
+    padding-top: 15px;
+ 
+}
+
+
+.account a{
+
+    
+
+    padding-left:20px;
+    font-size:20px ;
+    color:white;
+    position: absolute;
+    top: 15px;
+}
+.account a:hover{
+
+    padding-left:20px;
+    font-size:20px ;
+    color:white ;
+    position: absolute;
+    top: 15px;
+}
+
+
+
+.loog{
+    display: flex;
+    column-gap: 15px;
+ position: absolute;
+ top:20px;
+ left:1000px;
+}
+.loog a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding:0;
+        box-sizing: 0;
+    }
+    .contaiiiner{
+        display: flex;
+        flex-direction: row;
+        padding-left:2px;
+       row-gap: 1px;
+        position: fixed;
+        background-color:white;
+        width:100%;
+        height: 12%;
+            
+    }
+    .contaiiiner a{
+    position: absolute;
+    top:40px;
+    font-size: 12px;
+    text-decoration: none;
+    color:black
+    }
+    .contaiiiner a:hover{
+        position: absolute;
+        top:40px;
+        font-size: 20px;
+        text-decoration: none;
+        color: darkblue;
+        }
+    .imgSa img{
+        height: 20px;
+        width:100px;
+        
+        padding-top: 20px;
+        padding-left:5px;
+      
+    }
+    .sign{
+        height:15px;
+        width:45px;
+        border-radius: 10px;
+        color:black;
+        border:1px solid black;
+         padding: 5px;
+     
+    }
+    
+    .sign:hover{
+        height:15px;
+        width:45px;
+        border-radius: 10px;
+        color:darkblue;
+        border:1px solid darkblue;
+         padding: 5px;
+     
+    }
+    
+    .sign a{
+    
+    
+    
+        padding-left:5px;
+        font-size:10px ;
+        color:black ;
+        position: absolute;
+        top: 7.5px;
+    }
+    .sign a:hover{
+    
+        padding-left:5px;
+        font-size:10px ;
+        color:darkblue ;
+        position: absolute;
+        top: 7.5px;
+    }
+    
+    .account{
+        height: 17.5px;
+        width:100px;
+        border-radius:5px ;
+        background-color:black;
+        padding-top: 6px;
+     
+    }
+    
+    .account:hover{
+        height: 17.5px;
+        width:100px;
+        border-radius:10px ;
+        background-color:darkblue;
+        padding-top: 7.5px;
+     
+    }
+    
+    
+    .account a{
+    
+        
+    
+        padding-left:10px;
+        font-size:10px ;
+        color:white;
+        position: absolute;
+        top: 7.5px;
+    }
+    .account a:hover{
+    
+        padding-left:10px;
+        font-size:10px ;
+        color:white ;
+        position: absolute;
+        top: 7.5px;
+    }
+    
+    
+    
+    .loog{
+        display: flex;
+        column-gap: 5px;
+     position: absolute;
+     top:80px;
+     left:400px;
+    }
+    .loog a{
+        text-decoration: none;
+    }
+}
+
+
+/* meet the saver of the css */
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: 0;
+}
+.bboody{
+    background-color: darkblue;
+    color:white;
+    font-family:  'dm sans' sans-serif;;
+    height: 100vh;
+}
+h1{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1;
+}
+p{
+    line-height: 2;
+    font-size: 15px;
+}
+
+.material-symbols-outlined{
+    color:darkblue;
+    border:1px solid white;
+     background-color: white;
+    border-radius: 70%;
+    padding: 5px;
+    position: absolute;
+    left:50px
+}
+span .material-symbols-outlined{
+    padding-left: 5px;
+}
+.wwhole{
+    display: flex;
+    flex-direction: row;
+column-gap:300px;
+}
+.meet{
+padding-left: 70px;
+  margin-top: 200px;
+}
+.saver img{
+    height:500px;
+    width:600px;
+    margin-top: 80px;
+   
+}
+.nname{
+  padding-left: 90px;
+  padding-bottom: 30px;
+}
+@media screen and (max-width: 600px) {
+
+    *{
+        margin: 0;
+        padding:0;
+        box-sizing: 0;
+    }
+
+    .bboody{
+        background-color: darkblue;
+        color:white;
+        font-family: dm,sans-serif;
+        height: 100vh;
+    }
+    h1{
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 1;
+    }
+    p{
+        line-height: 2;
+        font-size: 15px;
+    }
+    
+    .material-symbols-outlined{
+        color:darkblue;
+        border:1px solid white;
+         background-color: white;
+        border-radius: 70%;
+        padding: 5px;
+        position: absolute;
+        left:50px
+    }
+    span .material-symbols-outlined{
+        padding-left: 5px;
+    }
+    .wwhole{
+        display: flex;
+        flex-direction:column;
+    justify-items: center;
+  
+
+    }
+    .meet{
+
+      justify-content: center;
+      padding-bottom: 30px;
+    }
+    .saver img{
+        height:500px;
+        width:400px;
+        justify-items: center;
+      padding-left:60px ;
+ }
+    .nname{
+      padding-left: 90px;
+      padding-bottom: 30px;
+    }
+
+=======
 /* general styles */
 
 * {
@@ -346,4 +716,5 @@ h3 {
     .footer-logo-img {
         margin-top: 1.9em;
     }
+
 }
