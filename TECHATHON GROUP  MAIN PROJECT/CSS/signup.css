@@ -1,0 +1,119 @@
+body {
+    background-color: #00308f;
+  }
+  
+  /* Form Case */
+  .Sign-up-container {
+    background-color: white;
+    color: #00308f;
+    border-radius: 20px;
+    width: 400px;
+    font-family: sans-serif;
+    font-size: 400;
+    margin-left: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px 20px 20px 0;
+  }
+  
+  /* This as to do with the welcome information */
+  .message {
+    color: #6a6c6d;
+    padding-left: 10px;
+    padding-right: 100px;
+    margin-left: 65px;
+    padding: 0%;
+    font-size: 13px;
+    font-stretch: expanded;
+    text-align: justify;
+  }
+  
+/* Case for the information */
+  .form1 {
+    color: black;
+    padding-left: 10px;
+    align-content: center;
+  }
+  
+  /* Bottom section */
+  .account1 {
+    color: white;
+    margin-left: 40%;
+    margin-top: 0%;
+    padding-top: 0%;
+  }
+  .account {
+    color: white;
+    padding-top: 100px;
+  }
+  
+  /* Logo section */
+  .logo1 {
+    align-content: center;
+    width: 220px;
+    height: 40px;
+    margin-left: 545px;
+    margin-top: 2%;
+    background-color: #00308f;
+  }
+  
+  /* Header section */
+  .create1 {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 50px;
+    color: blue;
+  }
+  
+  /* Text section */
+  .input {
+    background-color: #e6edf5;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    margin-left: 20px;
+    padding-left: 15px;
+    width: 75%;
+  }
+  input:focus{
+     outline: none;
+  }
+  
+  /* Text section 2 */
+  .input2 {
+    border: 0ch;
+    background-color: #e6edf5;
+    margin-left: 20px;
+    height: 45px;
+    border-radius: 6px;
+    width: 86%;
+  }
+  .input2:focus{
+    outline:none;
+  }
+  
+  /* Create button */
+  .create {
+    border: 0ch;
+    margin-bottom: 40px;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    height: 45px;
+    width: 86%;
+    color:#fff;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  .create:hover{
+    opacity:50%;
+  }
+   
+  /* Labels for the form */
+  .details {
+    margin-left: 20px;
+  }
+
